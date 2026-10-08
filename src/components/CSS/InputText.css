@@ -1,0 +1,22 @@
+input[type='text'] {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  margin-bottom: 0.3rem;
+}
+
+input[type='text']:focus {
+  border-color: #0066cc;
+  box-shadow: 0 0 3px rgba(0, 102, 204, 0.4);
+}
+
+p {
+  font-size: 0.85rem;
+  color: #cc0000;
+  margin: 0.2rem 0 0;
+}
